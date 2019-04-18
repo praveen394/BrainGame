@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/new_game_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/new_game_label"
+            android:textSize="25dp" 
+            android:background="@color/buttons"/>
+
+        <Button
+            android:id="@+id/continue_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/continue_label"
+            android:textSize="25dp" 
+            android:background="@color/buttons"/>
+
+        <Button
+            android:id="@+id/about_game_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/about_label"
+            android:textSize="25dp" 
+            android:background="@color/buttons"/>
+
+        <Button
+            android:id="@+id/exit_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/exit_label"
+            android:textSize="25dp" 
+            android:background="@color/buttons"/>
+    </LinearLayout>
+
+</LinearLayout>
